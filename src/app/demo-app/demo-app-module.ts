@@ -3,8 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
-import { SlideToggleOverviewExample } from './slide-toggle-overview/slide-toggle-overview-example';
-import { TabGroupBasicExample } from './tab-group-basic/tab-group-basic-example';
+import { SlideToggleOverviewExampleComponent } from './slide-toggle-overview/slide-toggle-overview-example';
+import { TabGroupBasicExampleComponent } from './tab-group-basic/tab-group-basic-example';
 
 import { CdkTableModule } from '@angular/cdk/table';
 import { CdkTreeModule } from '@angular/cdk/tree';
@@ -97,12 +97,12 @@ export class DemoMaterialModule { }
         DemoMaterialModule
     ],
     declarations: [
-        SlideToggleOverviewExample,
-        TabGroupBasicExample
+        SlideToggleOverviewExampleComponent,
+        TabGroupBasicExampleComponent
     ],
     exports: [
-        SlideToggleOverviewExample,
-        TabGroupBasicExample
+        SlideToggleOverviewExampleComponent,
+        TabGroupBasicExampleComponent
     ]
 })
 export class DemoAppModule { }

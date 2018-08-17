@@ -1,16 +1,13 @@
 import { Component } from '@angular/core';
 
-/**
- * @title Basic use of the tab group
- */
 @Component({
-  selector: 'tab-group-basic-example',
+  selector: 'mob-tab-group-basic-example',
   templateUrl: 'tab-group-basic-example.html',
   styleUrls: ['tab-group-basic-example.scss'],
 
 })
-export class TabGroupBasicExample {
-  selectedIndexId: number = 0;
+export class TabGroupBasicExampleComponent {
+  selectedIndexId = 0;
 
   onChangeIndex(id) {
     this.selectedIndexId = id;
